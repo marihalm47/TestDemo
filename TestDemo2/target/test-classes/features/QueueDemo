@@ -1,0 +1,8 @@
+@QueueSuite
+Feature: User to sign in the dsalgo application and test Queue page
+
+  @TestDemo_Queue_01
+  Scenario: user is logged in into the dsalgo project to test Queue page
+    Given user is logged into the home page
+    When  user clicks on get started button or dropdown for queue
+    Then  user directed to the queue page
